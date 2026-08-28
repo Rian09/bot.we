@@ -1,0 +1,17 @@
+{
+  "name": "bot-wa-pengaduan",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp pelayanan pengaduan dengan tiket, SQLite, dan panel admin sederhana.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  }
+}
